@@ -1,5 +1,5 @@
-import React from 'react';
-import Link from './Link';
+import React from "react";
+import Link from "./Link";
 
 const Header = () => {
   return (
@@ -12,9 +12,6 @@ const Header = () => {
       </Link>
       <Link href="/dropdown" className="item">
         Dropdown
-      </Link>
-      <Link href="/translate" className="item">
-        Translate
       </Link>
     </div>
   );
